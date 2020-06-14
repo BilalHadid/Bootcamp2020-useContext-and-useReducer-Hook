@@ -9,7 +9,6 @@ const Child = () => {
             <h1>This is first child using Counter context</h1>
             <h2>it counter value {counterValue[0]}</h2>
             <button onClick={() => counterValue[1](++counterValue[0])}>Increment</button>
-            <h2></h2>
         </div>
     )
 }
